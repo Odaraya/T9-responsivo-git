@@ -32,6 +32,8 @@ h2 {
 
 .sobre-conteudo__img {
     margin-top: 80px;
+    width: 100;
+    max-width: 233;
 }  
     
 .sobre-conteudo {
@@ -51,5 +53,30 @@ h2 {
     margin-left: 40px;
 }
 
+/*Media query @ media = a midia , screen+ que tem tela, and max width+ que tenham o tamanho maximo=*/
+@media (max-width:370px) and (max-width: 320px) {
+    .sobre-conteudo__img{
+        width: 160px;
+        }/* Media queries */
+@media screen and (max-width: 800px) {
+    .sobre-conteudo, .sobre-imagem {
+        width: 100%;
+    }
 
+    h1, h2, p {
+        text-align: center;
+    }
 
+    p {
+        max-width: 430px;
+        margin: 0 auto 110px auto;
+    }
+
+    .sobre-conteudo__botoes {
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+    }
+}

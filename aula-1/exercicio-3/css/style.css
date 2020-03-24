@@ -6,11 +6,9 @@ header {
     font-family: 'Courier New', ourier, monospace;
     background: url(../img/gato-background.jpg);
     background-size: cover;
-    background-position: center;
-    height: 180px;  
-    align-items: center;  
+    background-position: center;    
 }
-header div {
+.header-box {
     align-items: center;
     display: flex;
 }
@@ -32,4 +30,26 @@ main {
     width: 250px;
     height: 150px;   
 }
-/*  */
+
+main .todos:last-child{
+    margin-top: 20px;
+}
+
+/* Media query */
+@media screen and ( max-width:768px ){
+    .header-box {
+        min-height: 180px;
+        flex-direction: column;
+        padding: 2%;
+    }
+    .p{
+        align-items: center;
+    }
+    .todos{
+        flex-wrap: wrap;
+        
+    }
+     .todos:last-child{
+        margin-top: 20px;
+     }
+}
