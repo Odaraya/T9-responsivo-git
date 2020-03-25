@@ -1,0 +1,26 @@
+[33mcommit 056fcbe2e41146fc56f381978518ac26bcbe4a67[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: K.Lapa <odarayamello@gmail.com>
+Date:   Tue Mar 24 16:57:14 2020 -0300
+
+    aula-terça
+
+[33mcommit e085a98b6f92950d30ea8ebbbbc585d1e1ed699b[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 32f1c05 817d432
+Author: Mellina Yonashiro <pong7219@gmail.com>
+Date:   Sat Mar 21 22:51:34 2020 -0300
+
+    Merge pull request #1 from reprograma/segunda
+    
+    Arquivos de exercícios e explicação do dia 1
+
+[33mcommit 817d432be8bf09662b4a184d186480ebd7a89105[m[33m ([m[1;31morigin/segunda[m[33m)[m
+Author: Mellina Yonashiro <yonashiro.mellina@gmail.com>
+Date:   Sat Mar 21 22:50:19 2020 -0300
+
+    Arquivos de exercícios e explicação do dia 1
+
+[33mcommit 32f1c05067b45247441e481425c867508d645db2[m
+Author: Mellina Yonashiro <yonashiro.mellina@gmail.com>
+Date:   Fri Mar 20 22:34:23 2020 -0300
+
+    first commit

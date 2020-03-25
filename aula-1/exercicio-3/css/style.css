@@ -12,6 +12,7 @@ header {
     align-items: center;
     display: flex;
 }
+
 h1 {
     font-weight: bold;
     text-align: center;
@@ -25,6 +26,7 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .todos div img {
     width: 250px;
