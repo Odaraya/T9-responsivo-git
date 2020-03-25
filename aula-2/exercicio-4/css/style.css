@@ -10,7 +10,7 @@ body {
 
 /* FORM */
 .form {
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -44,6 +44,7 @@ body {
 
 /* LAYOUT */
 .half-col {
+    margin-top: 25px;
     display: inline-block;
     width: 45%;
 }
@@ -76,4 +77,18 @@ body {
 
 .btn_purple:hover {
     background-color: #3a006d;
+}
+@media screen and (max-width: 540px){
+    .form{
+        background: #ff0000;
+    }
+    .form > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .label{
+        text-align: center;
+    }
 }
